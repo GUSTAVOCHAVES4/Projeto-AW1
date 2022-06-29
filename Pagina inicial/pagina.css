@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    background: #ffffff;
+};
+
+/*Definições do footer - Gustavo Chaves */
+footer {
+    background-color: rgb(7, 7, 7);
+    box-shadow: 0 0 10px black;
+    margin: 0px;
+    padding: 8px;
+    display: block;
+    margin-top: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     
+   
+
+}
+
+.footer{
+    background-color: #000;
+}
+
+/* Coloca a cor de um link já visitado de bisque - Gustavo Chaves */
+.footer-content a:visited {
+    color: bisque;
+}
+/* Ao passar o cursor do mouse sobre o link, a sua cor muda para chartreuse- Gustavo Chaves */
+.footer-content a:hover {
+    color: chartreuse;
+}
+/*posicionamento do menu e sua coloração - Ryan.H*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10;
+    width: 20%;
+    background-color: #f1f1f1;
+    position: static;
+    height: 900px;
+    overflow: auto;
+    
+    
+
+  }
+  /*colocação do conteúdo dentro do menu e coloração - Ryan   */
+
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-left: #000;
+    border-radius: 30px;
+  }
+
+  /*Funcionalidade de ficar de outra cor ao passar o mouse por cima -Emilly */
+  
+  li a.active {
+    background-color: #04AA6D;
+    color: rgb(5, 5, 5);
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #5555 ;
+    color: rgb(252, 247, 247);
+  }
+/*imagem do header - Ryan.H*/
+ img{
+    width: 1600px ;
+    height: 200px;
+ }
+ 
+/*alinhamento do texto do footer -Ryan.H*/
+.footer-content {
+    text-align: center;
+}
+.footer-bottom{
+    text-align: center;
+}
+/*ajustamento do texto- Emilly */>
+.absolute {
+    width: 1000px;
+    position: absolute;
+    top: 250px;
+    left: 400px;
+    text-align: justify;
+   }
+  
