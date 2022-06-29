@@ -1,21 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
 </head>
 <body>
         header{
 
         }
+/* definindo header em altura, cor e onde ele ira ficar  
         header {
             background-color:beige ;
             min-height: 80px;
             text-align: center;
             padding-top: 1px;
         }
+/* definindo cor, tamanho e fonte para o h1
         header > h1{
             color: black;
             font-size: 35px;
