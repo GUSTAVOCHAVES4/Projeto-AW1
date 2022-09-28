@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,400&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*imagem galieleo - Ryan Henrique */
+
+.source{
+    width: 80%;
+    height: 100%;
+   
+   
+}
+/* Ajustando item -Ryan Henrique  */
+html{
+    width:100vw ;
+    height:100vw;
+    font-size: 62.5%;
+    background-color: rgb(255, 255, 255) ;
+    display : fleX;
+    justify-content: left;
+    align-items: left;
+    
+}
+/*formulario posicionamento - Ryan Henrique */
+.formulario{
+    width:300px;
+    height: 900px; 
+    border-top-right-radius: 3%;
+    border-bottom-right-radius: 3%;
+    padding: 0.6px;
+    display: block;
+    flex-direction:column;
+    position: absolute;
+    top: 90px ;
+    left: 800px;
+    
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    background: #ffffff;
+    display: block;
+}
+
+.galileo{
+    display: flex;
+    color: black;
+    
+}
+
+/*formulario ajustes - Ryan Herique */
+.formulario label{
+    font-size: 17px;
+    font-weight: 700 ;
+    color: rgb(211, 213, 213);
+    margin-bottom:0.5rem ;
+    display: block;
+}
+.formulario h2{
+    font-size: 30px ;
+    align-self: flex-start;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    color: aqua;
+    display: block;
+   
+    
+}
+h3{
+   font-size: 20px ;
+   color:aqua;
+   position: absolute;
+   top: 65px;
+   border-bottom: 2px  solid rgb(48,48,48) ; 
+   left: 15px;
+   display: block;
+   
+   
+
+
+}
+ .mod{
+    width: 300px;
+    height: 30px;
+}
+
+textarea{
+   width: 300px;
+   display: block;
+}
+/*Botão de enviar - Ryan Henrique */
+.Enviar{
+    width: 80px;
+    background-color: aqua;
+    color: white;
+    border: 800px ; 
+    font-size: 18.5px;
+    position: static;
+}
+/*imagem do lado - Ryan Hnerique  */
+
+.fundo{
+    display: block;
+    width: 80%;
+    height: 985px
+    
+}
+   
+
+    /*footer- Gustavo Chaves */
+    footer {
+        background-color: #111;
+        box-shadow: 0 0 10px black;
+        margin: 0px;
+        padding: 18px;
+        display: block;
+        margin-top: 5px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #ffffff;   
+        width: 2200px;
+    }
+    
+    /* Coloca a cor de um link já visitado de bisque - Gustavo Chaves */
+    .footer-content a:visited {
+        color: bisque;
+    }
+    /* Ao passar o cursor do mouse sobre o link, a sua cor muda para chartreuse - Gustavo Chaves */
+    .footer-content a:hover {
+        color: chartreuse;
+    }
+
+    /*mudança de cor do botão ao passar o mouse - Ryan Henrique */
+    .Enviar:hover{
+        background-color: rgba(12, 196, 12, 0.777);
+    }
+
+    .navbar{
+        position: absolute;
+        height: 98px;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.4);
+        display: block;
+    }
+    .navbar .logo{
+        width: 180px;
+        height: auto;
+        padding: 8px 100px;
+    
+    }
+    .navbar ul{
+        float: right;
+        margin-right: 20px;
+    }
+    .navbar ul li{
+        list-style: none;
+        margin: 0 8px;
+        display: inline-block;
+        line-height: 100px;
+    }
+    .navbar ul li a{
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        color: rgb(255, 255, 255);
+        padding: 6px 13px;
+        text-decoration: none;
+        transition: .4s;
+    }
+    .navbar ul li a.active,
+    .navbar ul li a:hover{
+        background: rgb(95, 0, 133);
+        border-radius: 5px;
+    }
+    
