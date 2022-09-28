@@ -1,0 +1,109 @@
+/*importando fonts - Gustavo Chaves*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+/*definindo o fundo da página e a opacidade - Gustavo Chaves*/
+.wrapper{
+	background: url(background.jpg) no-repeat;
+	background-size: cover;
+	height: 100vh;
+	opacity: 92%;
+}
+/*personalizando navbar (Header) - Gustavo Chaves*/
+.navbar{
+	position: fixed;
+	height: 98px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.4);
+}
+.navbar .logo{
+	width: 180px;
+	height: auto;
+	padding: 8px 100px;
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 100px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: rgb(255, 255, 255);
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+/*colocando o efeito de deixar roxo ao passar o mouse por cima e ao clicar em uma seção na navbar - Gustavo Chaves*/
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: rgb(95, 0, 133);
+	border-radius: 5px;
+}
+/*personalizando o conteúdo central da página - Gustavo Chaves*/
+.wrapper .center{
+	position: absolute;
+	left: 50%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+.center h1{
+	color: white;
+	font-size: 70px;
+	width: 900px;
+	font-weight: bold;
+	height: 200px;
+	text-align: center;
+
+}
+.center h2{
+	color: white;
+	font-size: 70px;
+	font-weight: bold;
+	margin-top: 10px;
+	width: 885px;
+	text-align: center;
+}
+
+.description {
+	text-align: center;
+	color: rgb(255, 255, 255);
+	font-size: 23px;
+	font-weight: bold;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*personalizando o footer - Gustavo Chaves*/
+footer {
+    background-color: #111;
+    box-shadow: 0 0 10px black;
+    margin: 0px;
+    padding: 8px;
+    display: block;
+    margin-top: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+	width: 98.7%;
+	position: absolute;
+	bottom: 0;
+}
+
+/* Coloca a cor de um link já visitado de bisque - Gustavo Chaves */
+.footer-content a:visited {
+    color: bisque;
+}
+/* Ao passar o cursor do mouse sobre o link, a sua cor muda para chartreuse - Gustavo Chaves */
+.footer-content a:hover {
+    color: chartreuse;
+}
