@@ -80,7 +80,7 @@
 /*definindo/personalizando o fundo - Gustavo Chaves*/
 body {
     url(background.jpg) no-repeat;
-    background-size: cover;
+    background-size: auto;
     height: 100vh;
     opacity: 92%;
 }
