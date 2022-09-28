@@ -1,0 +1,48 @@
+/*importando fonts - Gustavo Chaves*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/*personalizando navbar (Header) - Gustavo Chaves*/
+.navbar{
+	position: fixed;
+	height: 98px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.4);
+}
+.navbar .logo{
+	width: 180px;
+	height: auto;
+	padding: 8px 100px;
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 100px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: rgb(255, 255, 255);
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+/*colocando o efeito de deixar roxo ao passar o mouse por cima e ao clicar em uma seção na navbar - Gustavo Chaves*/
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: rgb(95, 0, 133);
+	border-radius: 5px;
+}
+
+
+
