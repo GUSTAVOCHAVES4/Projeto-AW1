@@ -79,7 +79,10 @@
 }
 /*definindo/personalizando o fundo - Gustavo Chaves*/
 body {
-    background: #ffffff;
+    url(background.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    opacity: 92%;
 }
 /*personalizando o footer - Gustavo Chaves*/
 footer {
