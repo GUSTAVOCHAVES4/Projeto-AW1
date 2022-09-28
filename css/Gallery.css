@@ -1,4 +1,4 @@
-/* ===== Google Font Import - Poppins ===== */
+/*importando fontes - Gustavo Chaves*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
 *{
     margin: 0;
@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+/*personalizando search-box - Gustavo Chaves*/
 .container{
     position: relative;
     min-height: 100vh;
@@ -41,6 +42,7 @@
     font-size: 20px;
     transform: translateY(-50%);
 }
+/*personalizando as imagens, o formato de exibição e texto - Gustavo Chaves*/
 .container .images .image-box{
     position: relative;
     height: 300px;
@@ -75,11 +77,11 @@
     font-weight: 400;
     text-transform: capitalize;
 }
-
+/*definindo/personalizando o fundo - Gustavo Chaves*/
 body {
     background: #ffffff;
 }
-
+/*personalizando o footer - Gustavo Chaves*/
 footer {
     background-color: #111;
     box-shadow: 0 0 10px black;
