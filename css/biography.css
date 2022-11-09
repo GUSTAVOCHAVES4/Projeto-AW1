@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.galileoimg {
+    max-width:400px;
+    max-height:400px;
+    width: 400px ;
+    height: 400px;
+    margin-left:80px;
+    margin-top: 150px;
+    float: left;
+}
+
+.navbar{
+    position: fixed;
+    height: 98px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.navbar .logo{
+    width: 180px;
+    height: auto;
+    padding: 8px 100px;
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 100px;
+}
+
+.navbar ul li a{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 6px 13px;
+    text-decoration: none;
+    transition: .4s;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: rgb(95, 0, 133);
+    border-radius: 5px;
+}
+.left {
+    float:left ;
+    margin-left: 30px;
+    margin-top: 150px;
+}
+
+.conteudo {
+    margin-top: 150px;
+    text-align:left;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.conteudo2 {
+    margin-top: 30x;
+    text-align:left;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.conteudo3 {
+    margin-top: 20px;
+    text-align:left;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.conteudo4 {
+    margin-top: 20px;
+    text-align:left;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.conteudo5 {
+    margin-top: 20px;
+    text-align:left;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.conteudo6 {
+    margin-top: 20px;
+    text-align:left;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.conteudo7 {
+    margin-top: 20px;
+    text-align:left;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+footer {
+    background-color: #111;
+    box-shadow: 0 0 10px black;
+    margin: 0px;
+    padding: 8px;
+    display: block;
+    margin-top: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+	width: 99%;
+	bottom: 0;
+}
