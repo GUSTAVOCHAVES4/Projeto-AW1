@@ -107,3 +107,79 @@ footer {
 .footer-content a:hover {
     color: chartreuse;
 }
+
+/* Toda parte a seguir adiciona e ajusta um efeito neon roxo aos botões do header, da página home - Gustavo Chaves*/
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #202631;
+  color: #9514ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #9514ff;
+  border: 8px solid #9514ff;
+  padding: 16px 64px;
+  border-radius: 16px;
+
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.3), 0 0 29px #9514ff;
+
+  box-shadow: inset 0 0 32px #9514ff;, 0 0 32px #9514ff;
+
+  position: relative;
+}
+
+.btn::before {
+  pointer-events: none;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #9514ff;;
+  left: 0;
+  top: 120%;
+
+  transform: perspective(64px) rotateX(40deg) scale(1, 0.35);
+  filter: blur(64px);
+  opacity: 0.7;
+}
+
+.btn::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #9514ff;;
+  box-shadow: 0 0 128px 32px #9514ff;;
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 100ms linear;
+}
+
+.btn:hover::after,
+.btn:focus::after {
+  opacity: 1;
+}
+
+.btn:hover::before,
+.btn:focus::before {
+  opacity: 1;
+}
+
+.btn:hover,
+.btn:focus {
+  color: #202631;
+  text-shadow: none;
+}
